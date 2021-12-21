@@ -10,12 +10,30 @@
 </head>
 <body>
     <input type="text" id="name">
-    <img src="Images/img (1).jpg" alt="">
     <ul id="list">
         <li onclick="getvalue(this.innerText)"><span></span>Size</li>
         <li onclick="getvalue(this.innerText)"><span></span>Gender</li>
-        <li onclick="getvalue(this.innerText)"><span></span>Price</li>
+        <li onclick="getvalue(this.innerText)"><span></span>Price
+            <ul id="list3">
+                <li onclick="getvalue(this.innerText)">499 and below</li>
+                <li onclick="getvalue(this.innerText)">500 to 1000</li>
+                <li onclick="getvalue(this.innerText)">1001 to 1500</li>
+                <li onclick="getvalue(this.innerText)">1501 to 2000</li>
+                <li onclick="getvalue(this.innerText)">2001 to 2500</li>
+                <li onclick="getvalue(this.innerText)">2501 and above</li>
+            </ul>
+        </li>
         <li onclick="getvalue(this.innerText)"><span></span>Color</li>
+        <li onclick="getvalue(this.innerText)"><span></span>Brand
+            <ul id="list2">
+                <li onclick="getvalue(this.innerText)">Allen Solley</li>
+                <li onclick="getvalue(this.innerText)">Van Huesen</li>
+                <li onclick="getvalue(this.innerText)">Louis Philippe</li>
+                <li onclick="getvalue(this.innerText)">Peter England</li>
+                <li onclick="getvalue(this.innerText)">Calvein Klein</li>
+                <li onclick="getvalue(this.innerText)">Lee Cooper</li>
+            </ul>
+        </li>
     </ul>
     <button id="btn">Submit</button>
 </body>
