@@ -1,3 +1,18 @@
-*{list-style-type: circle;}
+*{list-style-type: none;}
 #list2{display: none;}
 #list3{display: none;}
+#list4{display: none;}
+li{cursor: pointer;margin: 10px 0px;}
+span{display: inline-block;width: 7px;height: 7px;margin: 0px 5px;border: 2px solid black;border-radius: 10px;background-color: white;}
+/* .checkbox{display: inline-block;width: 7px;height: 7px;margin: 0px 5px;border: 2px solid black;border-radius: 10px;} */
+.red{background-color: red;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.black{background-color: black;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.white{background-color: white;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.khakee{background-color: #7d6c52;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.blue{background-color: blue;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.pink{background-color: pink;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.baige{background-color: #e0d0c1;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.grey{background-color: grey;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.salmon{background-color: salmon;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.green{background-color: green;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}
+.yellow{background-color: yellow;border:none;height: 15px;width: 15px;border-radius: 15px;border: 2px solid rgb(212, 212, 212);}

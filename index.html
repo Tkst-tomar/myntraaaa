@@ -11,30 +11,44 @@
 <body>
     <input type="text" id="name">
     <ul id="list">
-        <li onclick="getvalue(this.innerText)"><span></span>Size</li>
-        <li onclick="getvalue(this.innerText)"><span></span>Gender</li>
-        <li onclick="getvalue(this.innerText)"><span></span>Price
-            <ul id="list3">
-                <li onclick="getvalue(this.innerText)">499 and below</li>
-                <li onclick="getvalue(this.innerText)">500 to 1000</li>
-                <li onclick="getvalue(this.innerText)">1001 to 1500</li>
-                <li onclick="getvalue(this.innerText)">1501 to 2000</li>
-                <li onclick="getvalue(this.innerText)">2001 to 2500</li>
-                <li onclick="getvalue(this.innerText)">2501 and above</li>
-            </ul>
-        </li>
-        <li onclick="getvalue(this.innerText)"><span></span>Color</li>
-        <li onclick="getvalue(this.innerText)"><span></span>Brand
-            <ul id="list2">
-                <li onclick="getvalue(this.innerText)">Allen Solley</li>
-                <li onclick="getvalue(this.innerText)">Van Huesen</li>
-                <li onclick="getvalue(this.innerText)">Louis Philippe</li>
-                <li onclick="getvalue(this.innerText)">Peter England</li>
-                <li onclick="getvalue(this.innerText)">Calvein Klein</li>
-                <li onclick="getvalue(this.innerText)">Lee Cooper</li>
-            </ul>
-        </li>
+        <li onclick="getvalue(this)"><span class="checkbox"></span>Size</li>
+        <li onclick="getvalue(this)"><span class="checkbox"></span>Gender</li>
+        <li onclick="getvalue(this)" id="PriceList"><span class="checkbox"></span>Price</li>
+        <ul id="list3">
+            <li onclick="getvalue(this)"><span class="checkbox"></span>499 and below</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>500 to 1000</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>1001 to 1500</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>1501 to 2000</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>2001 to 2500</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>2501 and above</li>
+        </ul>
+        <li onclick="getvalue(this)" id="colorList"><span class="checkbox"></span>Color</li>
+        <ul id="list4">
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="blue"></span>Blue</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="black"></span>Black</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="white"></span>White</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="khakee"></span>Khakee</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="red"></span>Red</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="pink"></span>Pink</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="baige"></span>Baige</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="grey"></span>Grey</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="salmon"></span>Salmon</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="green"></span>Green</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span><span class="yellow"></span>Yellow</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span></span>Multi colored</li>
+        </ul>
+        <li onclick="getvalue(this)" id="brandList"><span class="checkbox"></span>Brand</li>
+        <ul id="list2">
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Allen Solley</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Van Huesen</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Louis Philippe</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Peter England</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Calvein Klein</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>Lee Cooper</li>
+            <li onclick="getvalue(this)"><span class="checkbox"></span>J Hampstead</li>
+        </ul>
     </ul>
     <button id="btn">Submit</button>
+<script></script>
 </body>
 </html>
